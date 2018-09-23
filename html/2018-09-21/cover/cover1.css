@@ -1,0 +1,73 @@
+.Row--height
+{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+.Bg
+{
+    background-color:black;
+}
+.text
+{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 5% ;
+}
+.Text
+{
+  
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5% 20% 10%;
+}
+b.underline {
+    text-decoration: underline;/* dấu gạch chân*/
+}
+p.Nho
+{
+    color:white;
+    display: inline;
+    justify-content: center;
+    align-items:center;
+    vertical-align: middle;
+    margin: 10px;
+}
+.buttom
+
+{
+    background-color:white ;
+    border-radius: 20px;
+    color:black ;
+    padding:15px 30px;
+    text-align: center;
+    display:inline-block;
+    font-size:15px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5em ;
+  /*  width: 10%;
+    height: 60px;*/
+}
+.footer
+{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.text--footer
+{
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10em;
+}    
