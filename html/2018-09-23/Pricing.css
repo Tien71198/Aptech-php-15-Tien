@@ -1,0 +1,44 @@
+.Head
+{
+    height: 60px;
+    color: black;
+}
+b.underline
+{
+    text-decoration: underline;
+    margin:5%;
+}
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Text {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20% 10%;
+}
+p.Nho {
+    color:black;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+    padding: 3px;
+}
+.text-end
+{
+    height: 200px;
+    display: start;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   
+}

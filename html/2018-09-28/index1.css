@@ -1,0 +1,26 @@
+.Head
+{
+    height: 100px;
+    background-color: rgb(110, 155, 238);
+}
+.Menu
+{
+    height: 200px;
+    background-color: rgb(151, 220, 221);
+    
+}
+.Intro
+{
+    height: 300px;
+    background-color:gray ;
+}
+.Img
+{
+    height: 300px;
+
+}
+.footer
+{
+    height: 100px;
+    background-color: bisque;
+}
