@@ -9,15 +9,9 @@
     background-color: rgb(151, 220, 221);
     
 }
-.Intro
-{
-    height: 250px;
-    background-color:gray ;
-}
 .Img
 {
-    height: 300px;
-    margin-bottom: 2rem;
+    background-image: url("https://s3.envato.com/files/79069308/01_blue_sky_background_with_sky_t.jpg");
 }
 .footer
 {

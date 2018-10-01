@@ -1,0 +1,33 @@
+.Head
+{
+    height:60px;
+    color:white;
+   
+}
+.text-box
+{
+    display: block;
+    width: 50%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border:4px solid #888888; 
+    border-radius: 3px  ;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.Heading
+{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.bg-Img
+{
+    background-image: url("https://img.over-blog-kiwi.com/2/44/95/64/20170717/ob_4c8fcb_my-pham-han-quoc.jpg");
+  
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
