@@ -9,6 +9,26 @@
 }
 .text-underline
 {
-    color:black ;
+    color:white ;
 
+}
+.p
+{
+    border-bottom: 1px solid gray;
+    margin-top: 5px;
+}
+.font
+{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display',serif;
+}
+.older
+{
+    border-radius:20px;
+    margin-bottom: 3rem;
+}
+.bg-About
+{
+    background-color:rgba(65, 63, 63, 0.068);
 }
