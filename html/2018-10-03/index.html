@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button onclick="document.getElementById('Img').src = './light/pic_bulbon.gif'">turn on</button>
+    <img id="Img" src="./light/pic_bulboff.gif">
+    <button onclick="document.getElementById('Img').src ='./light/pic_bulboff.gif'">turn off</button>
+
+
+    <img id="js-image" src="./light/pic_bulboff.gif" alt="">
+    <button onclick="batTat()">Click</button>
+
+    <!--
+    <img id="js-image" src="https://www.tuvikhoahoc.com/data/2014/05/ke-hoach-xay-nha.jpg" alt="">
+    <button onclick="Doianh()">Doi anh</button>
+
+    <img id="js-image1" src="http://hoatetdep.com/wp-content/uploads/2017/07/Hoa-h%E1%BB%93ng.jpg" width="400px" alt="">
+    <button onclick="change()">Change the picture</button>
+   <!-   <p class="abc" style="color:red";  id="demo">Tien</p>
+    <button onclick="quetnha()"> hien thong bao </button>
+
+    console.log('hello') chie hiển thị chữ trên màn hình , ko có khung thông báo -->
+
+    <script>
+        //   function quetnha() {
+        // document.getElementById("demo").innerHTML = "MY first java Script";
+
+        // console.log(document.getElementById("demo").style.color);
+        //  console.log(document.getElementById("demo").style.color);
+        // document.getElementById("demo").style.color = 'green';
+        //}
+        //  document.getElementById("demo").style.color = 'green';
+
+        /*
+            function Doianh()
+            {
+                var tenanh = document.getElementById("js-image");
+                tenanh.src = "https://znews-photo-td.zadn.vn/w1024/Uploaded/ywfau/2014_12_20/1_3.jpg";
+            }
+            function change()
+            {
+                var name = document.getElementById("js-image1");
+                name.src = "https://www.budget.com/content/dam/cars/l/2017/chevrolet/2017-chevrolet-impala-1lt-sedan-white_featured.png; "
+            }
+            */
+        
+        function batTat() {
+            var a = document.getElementById("js-image");
+            console.log(a.src);
+            if (a.src === 'http://127.0.0.1:5500/html/2018-10-03/light/pic_bulboff.gif') {
+                a.src = './light/pic_bulbon.gif';
+            } else {
+                a.src = './light/pic_bulboff.gif';
+            }
+        }
+    </script>
+</body>
+
+</html>

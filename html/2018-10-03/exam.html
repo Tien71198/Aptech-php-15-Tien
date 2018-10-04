@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="me"></p>
+    <h2 onclick="this.style.color='green'">hello</h2>
+
+    <button onclick="nhap()">Click me</button>
+    <img id="image" src="./light/pic_bulbon.gif" alt="">
+    
+    <button onclick="change()">click2</button>
+    <script>
+        function nhap() {
+            document.getElementById('me').innerHTML = "Ten toi la Tien";
+          //  console.log(document.getElementById('me').style.color);
+            document.getElementById('me').style.color = 'red';
+        }
+
+        function change() {
+            var name = document.getElementById("image");
+            console.log(name.src);
+            if (name.src ===
+                'https://www.budget.com/content/dam/cars/l/2017/chevrolet/2017-chevrolet-impala-1lt-sedan-white_featured.png;'
+            )
+                name.src = './light/pic_bulbon.gif';
+            else {
+                name.src =
+                    'https://www.budget.com/content/dam/cars/l/2017/chevrolet/2017-chevrolet-impala-1lt-sedan-white_featured.png;';
+            }
+        }
+        
+    </script>
+</body>
+
+</html>
