@@ -33,3 +33,10 @@ function Change()
         name.src = 'http://sohanews.sohacdn.com/2016/photo-2-1470638688308.jpg';
     }
 }
+
+$.document.ready(function ()
+{
+    $("#Img-bt").attr("src", "./light/pic_bulboff.gif")  
+    console.log("Img.attri");
+    $("#Img")
+})
