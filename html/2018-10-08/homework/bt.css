@@ -1,0 +1,14 @@
+.td,th {
+   
+    text-align: left;
+    padding: 8px;
+}
+.tr 
+{
+    background-color :#dddddd;
+}
+.tb
+{
+    width: 100%;
+
+}
