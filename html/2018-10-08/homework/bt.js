@@ -1,4 +1,3 @@
-
 var table = '<table id = "table" style="width:100%"></table>';
 $("#div").append(table);
 
@@ -39,3 +38,31 @@ var td = '<td id = "td3">2018-09-12 12:40:06</td>';
 $(td).appendTo("#tr1");
 var td = '<td Email = "td4">2018-09-12 12:40:06</td>';
 $(td).appendTo("#tr1");
+
+
+
+
+var users = [{
+        "id": 8
+    },
+    {
+        "name": "Pink Kuhn"
+    },
+    {
+        "email": "johnston.katelin@example.org"
+    },
+    {
+        "password": "*=Oo-liH"
+    },
+    {
+        "created_at": "2018-09-12 12:40:06"
+    },
+    {
+        "updated_at": "2018-09-12 12:40:06"
+    }
+]
+$.each(users, function () {
+    $.each(this, function (name, value) {
+        console.log(name + ": " + value);
+    });
+});

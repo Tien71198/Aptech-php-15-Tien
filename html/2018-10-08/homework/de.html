@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="bt.css">
+    
 </head>
 
 <body>
@@ -681,66 +682,81 @@
             ]
         };
 
-        for (i = 1; i < 100; i++) {
-            var p = document.createElement('p');
-            var I = document.createTextNode(b.users[i].id);
-         //   var i = document.createTextNode(b.users[2].id);
-          //  p.appendChild(I);
-           // document.getElementById("mydiv").appendChild(I);
-            document.getElementById(b.users[i]);
+
+        for (var i = 0; i < 100; i++) {
+            document.write("id :" + b.users[i].id + "<br>");
+            document.write("name :" + b.users[i].name + "<br>");
+            document.write("Email: " + b.users[i].email + "<br>");
+            document.write("password: " + b.users[i].password + "<br>");
+            document.write("created_at: " + b.users[i].created_at + "<br>");
+            document.write("updated_at: " + b.users[i].updated_at + "<br><br>");
         }
-        // var e = document.createElement('h1');
-        var p = document.createElement('p');
-        var p1 = document.createElement('p');
-        var p2 = document.createElement('p');
-        var p3 = document.createElement('p');
-        var p4 = document.createElement('p');
-
-
-        var I = document.createTextNode(b.users[1].id);
-        var a = document.createTextNode(b.users[1].name);
-        var em = document.createTextNode(b.users[1].email);
-        var pass = document.createTextNode(b.users[1].password);
-        var cat = document.createTextNode(b.users[1].created_at);
-        var upa = document.createTextNode(b.users[1].updated_at);
-
-        var I = document.createTextNode(b.users[2].id);
-        var a = document.createTextNode(b.users[2].name);
-        var em = document.createTextNode(b.users[2].email);
-        var pass = document.createTextNode(b.users[2].password);
-        var cat = document.createTextNode(b.users[2].created_at);
-        var upa = document.createTextNode(b.users[2].updated_at);
-
-
-
-        p.appendChild(I);
-        p.appendChild(a);
-        p.appendChild(em);
-        p.appendChild(pass);
-        p.appendChild(cat);
-        p.appendChild(upa);
-
-        //   document.body.appendChild(e);
-
-        document.getElementById("mydiv").appendChild(I);
-        document.getElementById("mydiv").appendChild(p);
-        document.getElementById("mydiv").appendChild(a);
-        document.getElementById("mydiv").appendChild(p1);
-        document.getElementById("mydiv").appendChild(em);
-        document.getElementById("mydiv").appendChild(p2);
-        document.getElementById("mydiv").appendChild(pass);
-        document.getElementById("mydiv").appendChild(p3);
-        document.getElementById("mydiv").appendChild(cat);
-        document.getElementById("mydiv").appendChild(p4);
-        document.getElementById("mydiv").appendChild(upa);
     </script>
-
+    <table style="width : 100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Created_at</th>
+                <th>updated_at</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].id + "<br>");
+                        }
+                    </script>
+                </th>
+                <td>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].name + "<br>");
+                        }
+                    </script>
+                </td>
+                <td>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].email + "<br>");
+                        }
+                    </script>
+                </td>
+                <td>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].password + "<br>");
+                        }
+                    </script>
+                </td>
+                <td>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].created_at + "<br>");
+                        }
+                    </script>
+                </td>
+                <td>
+                    <script>
+                        for (var i = 0; i <= 100; i++) {
+                            document.write(b.users[i].updated_at + "<br>");
+                        }
+                    </script>
+                </td>
+            </tr>
+        </tbody>
+    </table>
     <div id="div" class="td th tr tb">
 
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bt.js"></script>
+    <script src="bt1.js"></script>
 </body>
 
 </html>
