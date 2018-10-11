@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="div_ctn"></div>
+    <p id="demo"></p>
+    <script>
+        var a = [{
+                "id": 8,
+                "name": "Pink Kuhn",
+                "email": "johnston.katelin@example.org",
+                "password": "*=Oo-liH",
+                "created_at": "2018-09-12 12:40:06",
+                "updated_at": "2018-09-12 12:40:06"
+            },
+
+          {
+                "id": 9,
+                "name": "Leonie Pouros",
+                "email": "rlabadie@example.org",
+                "password": ">XuwS5}?",
+                "created_at": "2018-09-12 12:40:07",
+                "updated_at": "2018-09-12 12:40:07"
+            }]
+        
+    </script>
+ 
+
+    <script>
+        $(document).ready(function(us)
+    {
+            for(i=0;i<us.a.length;i++)
+            {
+                document.write(a[i].name);
+            }
+    });
+       
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--  <script src="vidu.js"></script> -->
+
+</body>
+
+</html>

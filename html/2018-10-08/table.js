@@ -36,3 +36,4 @@ var td = '<td id ="Itd">B</td>'
 $(td).appendTo("#TR");
 var td = '<td id ="Itd">21</td>'
 $(td).appendTo("#TR");
+

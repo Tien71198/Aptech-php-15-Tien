@@ -42,27 +42,12 @@ $(td).appendTo("#tr1");
 
 
 
-var users = [{
-        "id": 8
-    },
-    {
-        "name": "Pink Kuhn"
-    },
-    {
-        "email": "johnston.katelin@example.org"
-    },
-    {
-        "password": "*=Oo-liH"
-    },
-    {
-        "created_at": "2018-09-12 12:40:06"
-    },
-    {
-        "updated_at": "2018-09-12 12:40:06"
-    }
-]
-$.each(users, function () {
-    $.each(this, function (name, value) {
-        console.log(name + ": " + value);
-    });
+var u = b.users;
+u.forEach(function(users,i) {
+    var tr = '<tr id ="TR">' + i + '</tr>';
+    $(tr).appendTo("#tbody");
+    var th = '<th id = "TH"'
 });
+
+
+
