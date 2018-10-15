@@ -5,6 +5,11 @@
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="carousel.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -23,8 +28,60 @@
         </div>
     </div>
     <div class="cantainer-fluid">
-        <div class="row">
-            <div class="col-12">
+        <div class="row mt-3 w-100">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Once more for good measure</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus.
+                                Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button class="btn btn-primary">Browse gallery</button>
+                        </div>
+                        <img src="http://cdn.playbuzz.com/cdn/8d07f910-58ae-4027-8c82-2383aecd05f8/f766be92-b78e-4c9b-8bb6-1237ccf03b41.jpg"
+                            width="100%" height="300px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Example headline</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus.
+                                Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button class="btn btn-primary">Sign up today</button>
+                        </div>
+                        <img src="http://cdn.playbuzz.com/cdn/8d07f910-58ae-4027-8c82-2383aecd05f8/f766be92-b78e-4c9b-8bb6-1237ccf03b41.jpg"
+                            width="100%" height="300px">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Once more for good measure</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus.
+                                Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button class="btn btn-primary">Learn more</button>
+                        </div>
+                        <img src="http://cdn.playbuzz.com/cdn/8d07f910-58ae-4027-8c82-2383aecd05f8/f766be92-b78e-4c9b-8bb6-1237ccf03b41.jpg"
+                            width="100%" height="300px">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon "></span>
+                </a>
 
             </div>
         </div>
@@ -37,15 +94,15 @@
                         height="40%">
                 </div>
                 <div class="card-body ">
-                    <h3 class="d-flex justify-content-center">Heading</h3>
+                    <h3 class="d-flex justify-conpxtent-center">Heading</h3>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id
                         elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
                         magna.</p>
-                        <div class="d-flex justify-content-center">
-                             <button type="button"><a class="btn btn-decondary " 
-                                href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View details >></button>
-                        </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button"><a class="btn btn-decondary " href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View
+                            details >></button>
+                    </div>
                 </div>
             </div>
             <div class="col-4 ">
@@ -59,10 +116,10 @@
                         Cras mattis consectetur
                         purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
                         nibh.</p>
-                        <div class="d-flex justify-content-center">
-                             <button type="button"><a class="btn btn-decondary " 
-                                href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View details >></button>
-                        </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button"><a class="btn btn-decondary " href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View
+                            details >></button>
+                    </div>
                 </div>
             </div>
             <div class="col-4 ">
@@ -77,14 +134,15 @@
                         euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
                         fermentum massa justo
                         sit amet risus.</p>
-                        <div class="d-flex justify-content-center">
-                             <button type="button"><a class="btn btn-decondary " 
-                                href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View details >></button>
-                        </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button"><a class="btn btn-decondary " href="http://127.0.0.1:5500/html/2018-09-28/carousel.html"></a>View
+                            details >></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
