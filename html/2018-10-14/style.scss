@@ -1,0 +1,36 @@
+.Header{
+   &__Navigation{
+        &--size {
+            height: 50px;
+        }
+
+        &--bg {
+            background-color: blue;
+        }
+
+        &--logo {
+            font-size: 50px;
+        }
+   }
+}
+.Body
+{
+    &__Navigation
+    {
+        &--bg {
+            background-color: cornflowerblue;
+        }
+
+        &__bg__image {
+            background-image: url('https://images.unsplash.com/photo-1516019735714-78a9b3c4c9bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b4a9a2dcab0c7add2f875c976c9c8cb&auto=format&fit=crop&w=334&q=80');
+        }
+        &__bg__image_ctn
+        {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZlzbF3Lztkgv5XbblFwpEm_jYhKP-BUgzxpppjsJbJ7t2FPS');
+        }
+        &__bg__image_ctn1
+        {
+            background-image: url('https://images.unsplash.com/photo-1512205908084-f43bea685ff1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db9dd2aa315b06889e5e99bba325f5d1&auto=format&fit=crop&w=334&q=80')
+        }
+    }
+}

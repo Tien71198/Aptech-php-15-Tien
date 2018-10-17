@@ -1,0 +1,65 @@
+.Header__Navigation--size {
+  height: 50px;
+}
+
+.Header__Navigation--bg {
+  background-color: gray;
+}
+
+.Header__Navigation--logo {
+  font-size: 50px;
+}
+
+.Body__Navigation--bg {
+  background-color: cornflowerblue;
+}
+
+.Body__Navigation__bg__image {
+  background-image: url("https://images.unsplash.com/photo-1516019735714-78a9b3c4c9bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b4a9a2dcab0c7add2f875c976c9c8cb&auto=format&fit=crop&w=334&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Body__Navigation__bg__image_ctn {
+  background-image: url("https://images.unsplash.com/photo-1539580310116-8e654b90d301?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ad2b4ce7d88e3a65256f9535a5b81321&auto=format&fit=crop&w=400&q=80");
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Font-size {
+  font-size: 150%;
+}
+
+.Body__Navigation__bg__image_ctn1 {
+  background-image: url('https://images.unsplash.com/photo-1512205908084-f43bea685ff1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db9dd2aa315b06889e5e99bba325f5d1&auto=format&fit=crop&w=334&q=80')
+}
+.Body__Navigation__bg__image_ctn2
+{
+  background-image: url('https://images.unsplash.com/photo-1492065438790-d3c90cbc6e57?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb9a31e62b945d3cb66ba3d4afba652e&auto=format&fit=crop&w=500&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.Body__Navigation__bg__image_crs1
+{
+  background-image: url('https://images.unsplash.com/photo-1525107774039-31f3f3604613?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7fd125d7002c499c232b507be943b0fd&auto=format&fit=crop&w=334&q=80');
+  height: 400px;
+  background-size: cover; 
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.Body__Navigation__bg__image_crs2
+{
+  background-image: url('https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89a434b7ca3bad709a30a9c31b726165&auto=format&fit=crop&w=334&q=80');
+  background-size:cover;
+}
+.Body__Navigation__bg__image_crs3
+{
+  background-image:url('https://images.unsplash.com/photo-1507136566006-cfc505b114fc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc93d676717eeb1e0f00c2164a4d868a&auto=format&fit=crop&w=363&q=80');
+  background-size:cover;
+}
+/*# sourceMappingURL=style.css.map */
