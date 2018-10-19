@@ -14,21 +14,22 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row " style="height:250px">
-            <div class="col-6   mt-2">
+    <div class="container-fluid border-bottom shadow">
+        <div class="row ">
+            <div class="col-md-6 col-6  mt-2">
                 <button><img src="icon.png" width="50px" ; height="50%"></button>
+                <h2>Boostrap</h2>
             </div>
-            <div class="col-6 col-6 col-sm-4 col-md-3 p-2 d-flex justify-content-end mt-2">
+            <div class="col-6 d-md-none d-block">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-list-alt"></i>
+                </button>
+            </div>
+            <div class="col-6 p-2 mt-2">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav mr-auto   ">
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent1" >
+                        <ul class="navbar-nav w-100 h-100 d-flex justify-content-around" >
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                             </li>
@@ -49,115 +50,117 @@
         </div>
     </div>
 
-<div class="container ">
-    <div class="row">
-        <div class="col-12 ">
-            <div class="card-deck ">
-                <div class="card text-dark text-center mb-3 border border-white" style="max-width: 18rem;">
-                    <img class="card-image-top d-flex justify-content-center rounded-circle" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=750&q=80"
-                        ; width="50px" ; height="50px" ;>
-                    <div class="card-body">
-                        <h5 class="card-title">Heading</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
-                            exercitationem vero commodi, autem amet harum, quos eligendi nisi, ratione
-                            alias sed at fuga ducimus minus suscipit. Et, laudantium.</p>
-                        <a href="#" class="btn btn-secondary">View details >></a>
-                    </div>
-                </div>
-
-                <div class="card text-dark text-center mb-3 border border-white" style="max-width: 18rem;">
-                    <img class="card-image-top d-flex justify-content-center rounded-circle" src="https://images.unsplash.com/photo-1527586111811-0210b19af05b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c4193f42ebb29e6a1e65dc22e49d82c&auto=format&fit=crop&w=750&q=80"
-                        ; width="50px" ; height="50px" ;>
-                    <div class="card-body">
-                        <h5 class="card-title">Heading</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
-                            exercitationem vero commodi,
-                            autem amet harum, quos eligendi nisi, ratione alias sed at fuga ducimus minus
-                            suscipit. Et, laudantium.</p>
-                        <a href="#" class="btn btn-secondary">View details >></a>
-                    </div>
-                </div>
-
-                <div class="card text-dark text-center mb-3 border border-white" style="max-width: 18rem;">
-                    <img class="card-image-top d-flex justify-content-center rounded-circle" src="https://images.unsplash.com/photo-1527347757911-56639bbfa470?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=54b3164711e552477b47e18de33b636e&auto=format&fit=crop&w=667&q=80"
-                        ; width="50px" ; height="50px" ;>
-                    <div class="card-body">
-                        <h5 class="card-title">Heading</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
-                            exercitationem vero commodi,
-                            autem amet harum, quos eligendi nisi, ratione alias sed at fuga ducimus minus
-                            suscipit. Et, laudantium.</p>
-                        <a href="#" class="btn btn-secondary">View details >></a>
-                    </div>
-
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                <img class=" d-flex rounded-circle" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=750&q=80"
+                    ; width="50px" ; height="50px" ;>
+                    <h5 c>Heading</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi, autem amet harum, quos eligendi nisi, ratione
+                        alias sed at fuga ducimus minus suscipit. Et, laudantium.</p>
+                    <a href="#" class="btn btn-secondary">View details >></a>
                 </div>
 
             </div>
-        </div>
-    </div>
-    <hr>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-12">
+            <div class="col-md-4 d-none d-md-block">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <img class="d-flex justify-content-center rounded-circle" src="https://images.unsplash.com/photo-1527586111811-0210b19af05b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c4193f42ebb29e6a1e65dc22e49d82c&auto=format&fit=crop&w=750&q=80"
+                        ; width="50px" ; height="50px" ;>
 
-            <div class="card">
-        
-        <div class="card-body">
-            <div><h5 class="card-title text-muted"><b class="text-dark">First featurette headign</b><b> It'll blow your mind</b></h5>
-            <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h5>Heading</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi,
+                        autem amet harum, quos eligendi nisi, ratione alias sed at fuga ducimus minus
+                        suscipit. Et, laudantium.</p>
+                    <a href="#" class="btn btn-secondary">View details >></a>
+                </div>
             </div>
-            <div>
-                <img class="card-img-left " src="https://images.unsplash.com/photo-1527586111811-0210b19af05b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c4193f42ebb29e6a1e65dc22e49d82c&auto=format&fit=crop&w=750&q=80"
-                    alt="Card image cap" width="300px"; height="200px";>
-            </div>           
-        </div>
-             </div>
-            <div class="card">
-    <div class="card-body">
-        <div>
-            <h5 class="card-title text-muted"><b class="text-dark">oh year,It's that good </b><b> See for yourself</b></h5>
-            <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-                semper. praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac cursus
-                commodo.</p>
-        </div>
-        <div>
-            <img class="card-img-left " src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=750&q=80"
-                alt="Card image cap" width="300px" ; height="200px" ;>
-        </div>
-    </div>
+            <div class="col-md-4 d-none d-md-block">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                <img class="card-image-top d-flex justify-content-center rounded-circle" src="https://images.unsplash.com/photo-1527347757911-56639bbfa470?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=54b3164711e552477b47e18de33b636e&auto=format&fit=crop&w=667&q=80"
+                    ; width="50px" ; height="50px" ;>
+                    <h5>Heading</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugiat facere
+                        exercitationem vero commodi,
+                        autem amet harum, quos eligendi nisi, ratione alias sed at fuga ducimus minus
+                        suscipit. Et, laudantium.</p>
+                    <a href="#" class="btn btn-secondary">View details >></a>
+                </div>
+
             </div>
+
         </div>
+        <hr>
     </div>
-    <div class="row">
-        <div class="clo-6">
-            <div>
-                <h5 class="card-title text-muted"><b class="text-dark">oh year,It's that good </b><b> See for yourself</b></h5>
-                <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-                </p>
-            </div>
-        </div>
-        <div class="col-6">
-            <img src="https://images.unsplash.com/photo-1522165078649-823cf4dbaf46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=756f069c98c96a701453b1e27630e961&auto=format&fit=crop&w=750&q=80" ; width="300px"; height="200px";>
-        </div>
-    </div>
-</div>
     <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-md-6">
+                <img src="https://images.unsplash.com/photo-1527586111811-0210b19af05b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c4193f42ebb29e6a1e65dc22e49d82c&auto=format&fit=crop&w=750&q=80"
+                    ; width="100%" ; height="200px" ;>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                    <h5 class="card-title text-muted"><b class="text-dark">oh year,It's that good </b><b> See for yourself
+                        </b></h5>
+                    <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                        semper. praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac cursus
+                        commodo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                    <h5 class="card-title text-muted"><b class="text-dark">oh year,It's that good </b><b> See for yourself
+                        </b></h5>
+                    <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                        semper. praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac cursus
+                        commodo.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=750&q=80"
+                    ; width="100%" ; height="200px" ;>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-6">
+                <img src="https://images.unsplash.com/photo-1522165078649-823cf4dbaf46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=756f069c98c96a701453b1e27630e961&auto=format&fit=crop&w=750&q=80"
+                    ; width="100%" ; height="200px" ;>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div>
+                    <h5 class="card-title text-muted"><b class="text-dark">oh year,It's that good </b><b> See for
+                            yourself</b></h5>
+                    <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                        felis euismod semper.
+                        praesent coommodo cursus magna, vel sceleiaque nisl consectetur. Fusce dapibus, tellus ac
+                        cursus commodo.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">       
         <div class="row d-flex justify-content-center mt-3">
             <div class="col-6">
-                <p>2017-2018 Company, Inc 
-                <a href="#">Privacy</a> <a href="#">Term</a> </p>
+                <p>2017-2018 Company, Inc
+                    <a href="#">Privacy</a> <a href="#">Term</a> </p>
             </div>
-            <div class="col-6">
+            <div class="col-6 d-flex justify-content-end">
                 <a href="#">Back to top</a>
             </div>
         </div>
     </div>
 
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
