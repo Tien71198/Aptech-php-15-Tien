@@ -3,7 +3,7 @@
 $$servername = "localhost";
 $username = "root";
 $password = "";
-$database ="database";
+$database ="aptech_php_15_ss4";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$database);
